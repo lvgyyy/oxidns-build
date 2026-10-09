@@ -43,39 +43,39 @@ bundle: custom
 # corresponding group for every protocol referenced by your runtime config.
 # After a build, run `oxidns build-info` to verify the compiled capabilities.
 features:
-  - api
-  - webui
-  - metrics
-  - server-dot
-  - server-doh
-  - resolver-dot
-  - resolver-doh
-  - resolver-doq
+  # - api
+  # - webui
+  # - metrics
+  # - server-dot
+  # - server-doh
+  # - resolver-dot
+  # - resolver-doh
+  # - resolver-doq
   - upstream-dot
   - upstream-doh
   - upstream-doq
-  - provider-protobuf
-  - provider-adguard-rule
-  - plugin-cron
-  - plugin-dynamic-domain
-  - plugin-upgrade
-  - plugin-download
+  # - provider-protobuf
+  # - provider-adguard-rule
+  # - plugin-cron
+  # - plugin-dynamic-domain
+  # - plugin-upgrade
+  # - plugin-download
 
 # Target triples to build. Comment out targets you don't need to speed up CI.
 # Must use the triples officially supported by upstream oxidns, otherwise
 # `oxidns upgrade` will not be able to find the asset.
 targets:
-  - x86_64-unknown-linux-gnu
-  - x86_64-unknown-linux-musl
-  - aarch64-unknown-linux-gnu
+  # - x86_64-unknown-linux-gnu
+  # - x86_64-unknown-linux-musl
+  # - aarch64-unknown-linux-gnu
   - aarch64-unknown-linux-musl
   # - i686-unknown-linux-musl
   # - arm-unknown-linux-musleabihf
   # - armv7-unknown-linux-musleabihf
-  - x86_64-apple-darwin
-  - aarch64-apple-darwin
+  # - x86_64-apple-darwin
+  # - aarch64-apple-darwin
   # - x86_64-unknown-freebsd
-  - x86_64-pc-windows-msvc
+  # - x86_64-pc-windows-msvc
   # - i686-pc-windows-msvc
   # - aarch64-pc-windows-msvc
 
